@@ -1,0 +1,118 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Yusei Magic', sans-serif;
+    background-color: #ebebeb;
+    color: #050505;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline;
+    line-height: 150px;
+    margin: 0 -100px;
+    margin-right: 200px;
+    position: relative;
+    bottom: 35px;
+}
+.logo{
+    position:absolute;
+    top: 2%;
+    right: 1%;
+}
+a{
+    color: #050505;
+    text-shadow: 1px 1px 13px rgba(0, 0, 0, 0.46);
+}
+a.active ,.nav-Link:hover{
+    background-color: #6f4a8e;
+    transition: 0.5s;
+    color: #ebebeb;
+}
+input[type=text], select, textarea {
+    background: #221f3b;
+    width: 35%;
+    padding: 12px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: #ebebeb;
+    font-size: 18px;
+  }
+  
+.cv {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 10px;
+    color: #ebebeb;
+    background-color: #221f3b;
+
+  }
+  
+.cv:hover {
+    background-color: #6f4a8e ;
+    transition: 0.5s;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 132px;
+    margin-left: 50px;
+  }
+  ::placeholder{
+    font-family: 'Yusei Magic', sans-serif;
+    padding-left: 165px;
+    padding-top: 50px;
+    color: #ebebeb;
+}
+label{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    top: 10px;
+    font-size: 22px;
+    text-shadow: 1px 1px 13px rgba(0, 0, 0, 0.46);
+}
+h1{
+    position: absolute;
+    top: 18%;
+    left: 4.5%;
+    text-shadow: 1px 1px 13px rgba(0, 0, 0, 0.46);
+}
+img{
+    position: relative;
+    bottom: 350px;
+}
+.icon1{
+    position: relative;
+    right: 150px;
+    bottom: 100px;
+}
+.icon2{
+    position: relative;
+    right: 225px;
+    top:100px;
+}
+h2{
+    position: absolute;
+    bottom: 350px;
+    left: 900px;
+}

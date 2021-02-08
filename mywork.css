@@ -1,0 +1,75 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Yusei Magic', sans-serif;
+    background-color: #ebebeb;
+    color: #050505;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline;
+    line-height: 150px;
+    margin: 0 -100px;
+    margin-right: 200px;
+}
+.logo{
+    position:absolute;
+    top: 2%;
+    right: 1%;
+}
+a{
+    color: #050505;
+    text-shadow: 1px 1px 13px rgba(0, 0, 0, 0.46);
+}
+a.active ,.nav-Link:hover{
+    background-color: #6f4a8e;
+    transition: 0.5s;
+    color: #ebebeb;
+}
+img{
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 240px;   
+    margin-bottom: 250px;
+}
+h1{
+    margin-top: 200px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    position: relative;
+    right: 40%;
+    bottom: 125px;
+    width: 200px;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 10px;
+    color: #ebebeb;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+}
+.purple-Button{
+    background-color: #8B4EC6;
+}
+.purple-Button:hover{
+    background-color: #592d81;
+    transition: 0.5s;
+}
+
+.blue-Button{
+    background-color:#19A2AE;
+}
+.blue-Button:hover{
+    background-color:#15808a;
+    transition: 0.5s;
+}
